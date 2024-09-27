@@ -6,6 +6,6 @@ on:
 
 jobs:
   run:
-    uses: "anchore/workflows/.github/workflows/remove-awaiting-response-label.yaml@fix/pr-comment-trigger"
+    uses: "anchore/workflows/.github/workflows/remove-awaiting-response-label.yaml@main"
     secrets:
       token: ${{ secrets.OSS_PROJECT_GH_TOKEN }}
